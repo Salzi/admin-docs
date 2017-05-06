@@ -42,6 +42,7 @@ Examplary configuration
       nokia_here_appid:
       nokia_here_token:
       thunderforest_api_key:
+      swissTopoMap_show:  false
       geonames_username:
       perl_path: /usr/bin/perl
       python3_path: /usr/bin/python3
@@ -112,6 +113,8 @@ nokia\_here\_token
     Token for HERE access
 thunderforest\_api\_key
     Api key for thunderforest layers (for activity maps), see `thunderforest.com <https://www.thunderforest.com/docs/apikeys/>`_
+swissTopoMap\_show
+    Needs registration, see `geo.admin.ch <https://www.geo.admin.ch/de/geo-dienstleistungen/geodienste/darstellungsdienste-webmapping-webgis-anwendungen/programmierschnittstelle-api/anmeldung.html>`_
 geonames\_username
     Username for `geonames.org <http://www.geonames.org/>`_, used for elevation
     correction if no local srtm files are available
