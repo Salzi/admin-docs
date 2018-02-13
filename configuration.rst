@@ -43,6 +43,7 @@ Examplary configuration
       nokia_here_token:
       thunderforest_api_key:
       swissTopoMap_show:  false
+      mapbox_api_key:
       geonames_username:
       perl_path: /usr/bin/perl
       python3_path: /usr/bin/python3
@@ -115,6 +116,8 @@ thunderforest\_api\_key
     Api key for thunderforest layers (for activity maps), see `thunderforest.com <https://www.thunderforest.com/docs/apikeys/>`_
 swissTopoMap\_show
     Needs registration, see `geo.admin.ch <https://www.geo.admin.ch/de/geo-dienstleistungen/geodienste/darstellungsdienste-webmapping-webgis-anwendungen/programmierschnittstelle-api/anmeldung.html>`_
+mapbox\_api\_key
+    Api key for mapbox outdoor layer (for activity maps), see `mapbox.com <https://www.mapbox.com/help/create-api-access-token/>`_
 geonames\_username
     Username for `geonames.org <http://www.geonames.org/>`_, used for elevation
     correction if no local srtm files are available
